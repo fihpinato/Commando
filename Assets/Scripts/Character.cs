@@ -33,7 +33,7 @@ public class Character : MonoBehaviour {
 
 		if(controller.isGrounded){
 
-			moverDirecao = new Vector3 (Input.GetAxisRaw("Horizontal"), 0.0f, 0.0f);
+			moverDirecao = new Vector3 (Input.GetAxisRaw("Horizontal"), 0f, 0f);
 
 			moverDirecao = transform.TransformDirection (moverDirecao) * velocidade;
 
@@ -55,6 +55,10 @@ public class Character : MonoBehaviour {
 			anim.CrossFade ("run");
 		} else {
 			anim.CrossFade ("idle");
+		}
+
+		if (Input.GetButton ("Jump") && Input.GetAxisRaw("Horizontal") == 0) {
+			anim.CrossFade("fire");
 		}
 	}
 

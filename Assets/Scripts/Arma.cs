@@ -5,16 +5,19 @@ using UnityEngine;
 public class Arma : MonoBehaviour {
 
 	public GameObject projetil;
+	public float intervalo;
+	bool atirar = true;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown ("Jump")) {
+		if (Input.GetButton ("Jump") && atirar) {
 			Instantiate (projetil, transform.position, transform.rotation);
+			atirar = false;
+			StartCoroutine (podeAtirar (intervalo));
 		}
+	}
+
+	IEnumerator podeAtirar(float t){
+		yield return new WaitForSeconds (t);
+		atirar = true;
 	}
 }
