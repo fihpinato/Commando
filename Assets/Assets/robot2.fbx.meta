@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 27cd30c571e73c14aa2906389fe7ec79
+timeCreated: 1490009335
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone02
+    100002: Bone03
+    100004: Bone09
+    100006: Bone13
+    100008: Bone15
+    100010: braco_D00
+    100012: braco_D01
+    100014: braco_D02
+    100016: braco_E00
+    100018: braco_E01
+    100020: braco_E02
+    100022: COG
+    100024: Dummy01
+    100026: Dummy02
+    100028: Dummy03
+    100030: Dummy04
+    100032: Dummy05
+    100034: IK Chain01
+    100036: IK Chain02
+    100038: Object01
+    100040: Object02
+    100042: Object03
+    100044: Object04
+    100046: Object05
+    100048: Object06
+    100050: Object07
+    100052: Object08
+    100054: pe_D
+    100056: pe_E
+    100058: perna_D00
+    100060: perna_D01
+    100062: perna_D02
+    100064: perna_E00
+    100066: perna_E01
+    100068: perna_E02
+    100070: Rectangle01
+    100072: Rectangle02
+    100074: Robo
+    100076: //RootNode
+    100078: Spine
+    400000: Bone02
+    400002: Bone03
+    400004: Bone09
+    400006: Bone13
+    400008: Bone15
+    400010: braco_D00
+    400012: braco_D01
+    400014: braco_D02
+    400016: braco_E00
+    400018: braco_E01
+    400020: braco_E02
+    400022: COG
+    400024: Dummy01
+    400026: Dummy02
+    400028: Dummy03
+    400030: Dummy04
+    400032: Dummy05
+    400034: IK Chain01
+    400036: IK Chain02
+    400038: Object01
+    400040: Object02
+    400042: Object03
+    400044: Object04
+    400046: Object05
+    400048: Object06
+    400050: Object07
+    400052: Object08
+    400054: pe_D
+    400056: pe_E
+    400058: perna_D00
+    400060: perna_D01
+    400062: perna_D02
+    400064: perna_E00
+    400066: perna_E01
+    400068: perna_E02
+    400070: Rectangle01
+    400072: Rectangle02
+    400074: Robo
+    400076: //RootNode
+    400078: Spine
+    4300000: Robo
+    4300002: Object01
+    4300004: Object02
+    4300006: Object03
+    4300008: Object04
+    4300010: Object05
+    4300012: Object06
+    4300014: Object07
+    4300016: Object08
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Object01
+    13700002: Object02
+    13700004: Object03
+    13700006: Object04
+    13700008: Object05
+    13700010: Object06
+    13700012: Object07
+    13700014: Object08
+    13700016: Robo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 26
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/Dummy02
+        weight: 1
+      - path: COG/Dummy02/perna_D00
+        weight: 1
+      - path: COG/Dummy02/perna_D00/perna_D01
+        weight: 1
+      - path: COG/Dummy02/perna_D00/perna_D01/perna_D02
+        weight: 1
+      - path: COG/Dummy03
+        weight: 1
+      - path: COG/Dummy03/perna_E00
+        weight: 1
+      - path: COG/Dummy03/perna_E00/perna_E01
+        weight: 1
+      - path: COG/Dummy03/perna_E00/perna_E01/perna_E02
+        weight: 1
+      - path: COG/Dummy04
+        weight: 1
+      - path: COG/Dummy04/Spine
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02/Bone09
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02/Bone09/braco_D00
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02/Bone09/braco_D00/braco_D01
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02/Bone09/braco_D00/braco_D01/braco_D02
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02/Bone13
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02/Bone13/braco_E00
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02/Bone13/braco_E00/braco_E01
+        weight: 1
+      - path: COG/Dummy04/Spine/Bone02/Bone13/braco_E00/braco_E01/braco_E02
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy05
+        weight: 1
+      - path: Object01
+        weight: 1
+      - path: Object02
+        weight: 1
+      - path: Object03
+        weight: 1
+      - path: Object04
+        weight: 1
+      - path: Object05
+        weight: 1
+      - path: Object06
+        weight: 1
+      - path: Object07
+        weight: 1
+      - path: Object08
+        weight: 1
+      - path: Rectangle01
+        weight: 1
+      - path: Rectangle01/pe_D
+        weight: 1
+      - path: Rectangle01/pe_D/Bone03
+        weight: 1
+      - path: Rectangle01/pe_D/IK Chain01
+        weight: 1
+      - path: Rectangle02
+        weight: 1
+      - path: Rectangle02/pe_E
+        weight: 1
+      - path: Rectangle02/pe_E/Bone15
+        weight: 1
+      - path: Rectangle02/pe_E/IK Chain02
+        weight: 1
+      - path: Robo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
